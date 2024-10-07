@@ -14,10 +14,10 @@ Text File: Text file containing the secret message to encode.
 
 # How it Works
 Encoding
-The program reads the BMP image and a secret text file, and encodes the text within the image by modifying the least significant bits (LSBs) of pixel values.
+: The program reads the BMP image and a secret text file, and encodes the text within the image by modifying the least significant bits (LSBs) of pixel values.
 
 Decoding
-The program extracts the hidden data from an encoded BMP image by reading the LSBs of the image's pixel values.
+: The program extracts the hidden data from an encoded BMP image by reading the LSBs of the image's pixel values.
 
 # Files
 main.c: The main driver code that processes the command-line arguments and invokes either encoding or decoding.
